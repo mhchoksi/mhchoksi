@@ -1,0 +1,95 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+.Leftalign
+{
+    text-align: left;
+}
+.Centrealign
+{
+    text-align: centre;
+}
+.management-box {
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    top: 230px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, .9);
+    padding: 15px;
+    text-align: center;
+}
+
+#start-service {
+    min-height: 15px;
+    background-color: #3887be;
+    color: #fff;
+    font-family: 'Open Sans';
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+#stop-service {
+    min-height: 15px;
+    background-color: #3887be;
+    color: #fff;
+    font-family: 'Open Sans';
+    border-radius: 3px;
+    padding: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+#load-data {
+    min-height: 15px;
+    background-color: #3887be;
+    color: #fff;
+    font-family: 'Open Sans';
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+#save-data {
+    min-height: 15px;
+    background-color: #3887be;
+    color: #fff;
+    font-family: 'Open Sans';
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+#get-regions {
+    min-height: 15px;
+    background-color: #3887be;
+    color: #fff;
+    font-family: 'Open Sans';
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+#set-regions {
+    min-height: 15px;
+    background-color: #3887be;
+    color: #fff;
+    font-family: 'Open Sans';
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+p {
+   font-family: 'Open Sans';
+   margin: 0;
+   font-size: 13px;
+}

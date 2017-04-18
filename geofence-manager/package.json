@@ -1,0 +1,25 @@
+{
+  "name": "geofencemgr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "assert-dotenv": "3.x.x",
+    "body-parser": "~1.0.0",
+    "cfenv": "1.0.x",
+    "cloudant": "^1.6.2",
+    "cookie-parser": "~1.0.1",
+    "express": "4.13.x",
+    "extract-zip": "1.5.0",
+    "jquery": "3.1.1",
+    "morgan": "~1.0.0",
+    "mqtt": "^2.1.1",
+    "pug": "2.0.0-beta6",
+    "static-favicon": "~1.0.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}

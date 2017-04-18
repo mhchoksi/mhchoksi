@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: fencing
+  host: geo-fence
+  disk_quota: 1024M
+  services:
+  - Fencing-cloudantNoSQLDB
+  - Geospatial Analytics-Fencing
+  - Fencing-iotf-service
